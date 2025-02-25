@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@700&display=swap');
+
+/*Media Query para Mobile*/
+@media (max-width: 767px) {
+    .carousel-item > img {
+        height: 280px;
+    }
+}
+
+
+/*
+    font-family: "Roboto", serif 
+    font-family: "Pacifico", serif;
+*/
+/*Class com a fonte Anton abaixo*/
+.section-title {
+    font-family: "Anton", serif;
+}
+
+/*Estilo do corpo*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Estilo do Cabeçalho abaixo*/
+.navbar {
+    background-color: rgb(85, 85, 85);
+}
+
+/*Título do Cabeçalho abaixo*/
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/*Estilo da navegação abaixo*/
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: black;
+}
+/*Estilo da navegação abaixo*/
+#cabecalho .nav .nav-link {
+    color: white;
+}
+
+/*Estilo do botão da barra de navegação*/
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.carousel-item img {
+    height: 280px;
+}
+
+#promocoes .font-size{
+    font-size: 35px;
+}
+
+#sobre-concessionaria,
+#caminhoes {
+    background-color: #d6d6d6;
+}
+
+/*Estilo da barra de navegação dos caminhões*/
+.nav-caminhoes .nav-link.active {
+    background-color: #e15f41;
+    color: white;
+}
+.nav-caminhoes .nav-link:hover {
+    color: #e15f41;
+}
+.nav-caminhoes .nav-link.active:hover {
+    color: white;
+}
+
+#caminhoes a,
+#promocoes a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Estilo da sessão fale conosco*/
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links li a {
+    text-decoration: none;
+}
+#contato button{
+    background-color: black;
+    color: white;
+}
+textarea {
+    resize: none;
+}
+
+.bi-whatsapp {
+    color: green;
+}
+
+.bi-instagram {
+    color: #dd2a7b;
+}
+
+
+footer {
+    background-color: #d6d6d6;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

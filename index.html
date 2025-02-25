@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+    <link rel="stylesheet" href="estilos/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="estilos/main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Martins Trucks</h1>
+            <button class="navbar-toggler" data-bs-target="#menu"  data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>  
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-concessionaria" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a concessionária
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-percent"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#caminhoes" class="nav-link">
+                            <i class="bi bi-truck"></i>
+                            Caminhões
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-concessionaria">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row"><div class="col-md-5">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel-restaurante">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="imagens/concessionaria.jpg" alt="Espaço interno do restaurante">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="imagens/concessionaria1.jpg" alt="Taças de vinho">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="imagens/concessionaria2.png" alt="Mesa com comida">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-restaurante" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-restaurante" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" class="active" data-bs-target="#carousel-restaurante" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel-restaurante" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel-restaurante" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Bem vindo à Martins Trukcs</h2>
+                            <p>A Marins Trucks é referência no mercado de caminhões, oferecendo as melhores marcas, modelos e serviços para garantir que sua frota esteja sempre pronta para rodar com segurança e eficiência.</p>
+                            <h3 class="section-title">Nossa Missão</h3>
+                            <p>Fornecer caminhões de alto desempenho, novos e seminovos, além de serviços especializados para atender às necessidades de transportadores, empresas e motoristas autônomos.</p>
+                            <ul>
+                                <li>
+                                    <strong>Venda de Caminhões Novos e Seminovos:</strong> Trabalhamos com as principais marcas do mercado, oferecendo modelos que atendem a diferentes demandas de transporte.
+                                </li>
+                                <li class="py-3">
+                                    <strong>Peças e Acessórios Originais:</strong> Produtos de alta qualidade para manutenção e performance do seu caminhão.
+                                </li>
+                                <li>
+                                    <strong>Serviços Especializados:</strong> Manutenção preventiva e corretiva com equipe treinada e equipamentos modernos.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promocoes" class="pt-5 pb-5" >
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        <i class="bi bi-percent"></i>
+                        Promoções
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="imagens/scania1.jpeg" alt="Scania FH R380">
+                        <h3 class="section-title fs-4">
+                            Scania fh R380 - 2013
+                        </h3>
+                        <h5>De <del>R$ 420.100</del></h5>
+                        <h4>Por <span class="font-size">R$ 340.600</span></h4>
+                        <p>Scania FH R380 – Robustez, Economia e Confiabilidade! O Scania FH R380 é um caminhão pesado e versátil, ideal para transporte rodoviário de cargas em longas distâncias. Com um motor potente e eficiente, ele se destaca pela sua economia de combustível, durabilidade e conforto para o motorista.  Moderno, com computador de bordo para gerenciamento de viagem</p>
+                        <button class="btn btn-success w-100 mb-5">
+                            <a href="#contato">Entre em contato!</a>
+                        </button>
+                    </div>
+                    <div class="col-md-4 ">
+                        <img class="d-block rounded w-100 mb-2" src="imagens/scania.jpg" alt="Scania FH 540">
+                        <h3 class="section-title fs-4">
+                            Scania fh 540 - 2020
+                        </h3>
+                        <h5>De <del>R$ 620.000</del></h5>
+                        <h4>Por <span class="font-size">R$ 584.000</span></h4>
+                        <p>Scania FH 540 – Potência e Eficiência para Grandes Desafios! O Scania FH 540 é um dos caminhões mais potentes da marca, projetado para operações de transporte de cargas pesadas e longas distâncias. Ele combina força, economia de combustível e tecnologia avançada, tornando-se uma das melhores opções para quem busca alto desempenho e baixo custo operacional.!</p>
+                        <button class="btn btn-success w-100 mb-5">
+                            <a href="#contato">Entre em contato!</a>
+                        </button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="imagens/volvo.jpeg" alt="Volvo FH 540">
+                        <h3 class="section-title fs-4">
+                            Volvo FH 540 - 2016
+                        </h3>
+                        <h5>De <del>R$ 459.400</del></h5>
+                        <h4>Por <span class="font-size">R$ 405.800</span></h4>
+                        <p>O Volvo FH 540 é um dos caminhões mais potentes e confiáveis ​​do mercado, ideal para operações de transporte de longa distância e cargas pesadas. Eficiência otimizada com sistema I-See e outras tecnologias de economia de combustível. Freios eletrônicos EBS, controle de estabilidade, piloto automático adaptativo e assistentes de direção</p>
+                        <button class="btn btn-success w-100 mb-5">
+                            <a href="#contato">Entre em contato!</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="caminhoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 ">Caminhões</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#cavalinhos" type="button" class="fw-bold text-start nav-link text-color active">Cavalinhos
+                            </button>
+
+                            <button data-bs-toggle="tab" data-bs-target="#baus" type="button" class="fw-bold text-start nav-link text-color">Baus de carreta</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cavalinhos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/volvo.jpeg" alt="Scania FH 540">
+                                        <h5 class="fw-bold mt-2">Volvo FH 540</h5>
+                                        <h4 class="mt-3">Por R$ 459.400</h4>
+                                        <p>Para saber das especificações entre em contato.</p>
+                                        <button class="btn btn-success w-100 mb-5">
+                                            <a href="#contato">Entre em contato!</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/scania1.jpeg" alt="Scania FH R380">
+                                        <h5 class="fw-bold mt-2">Scania FH 380</h5>
+                                        <h4 class="mt-3">Por R$ 420.100</h4>
+                                        <p>Para saber das especificações entre em contato.</p>
+                                        <button class="btn btn-success w-100 mb-5">
+                                            <a href="#contato">Entre em contato!</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/scania.jpg" alt="Scania FH 540">
+                                        <h5 class="mt-2 fw-bold">Scania FH 540</h5>
+                                        <h4 class="mt-3">Por R$ 620.000</h4>
+                                        <p>Para saber das especificações entre em contato.</p>
+                                        <button class="btn btn-success w-100 mb-5">
+                                            <a href="#contato">Entre em contato!</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="baus">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bau.jpg" alt="bau de caminhão">
+                                        <h5 class="fw-bold mt-2">Bau Facchini</h5>
+                                        <h4 class="mt-3">Por R$ 130.800</h4>
+                                        <p>Para saber das especificações entre em contato!</p>
+                                        <button class="btn btn-success w-100 mb-5">
+                                            <a href="#contato">Entre em contato!</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bau1.webp" alt="bau de caminhão">
+                                        <h5 class="fw-bold mt-2">Bau Facchini</h5>
+                                        <h4 class="mt-3">Por R$ 146.000</h4>
+                                        <p>Para saber das especificações entre em contato!</p>
+                                        <button class="btn btn-success w-100 mb-5">
+                                            <a href="#contato">Entre em contato!</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/bau2.jpeg" alt="bau de caminhão">
+                                        <h5 class="fw-bold mt-2">Bau Palmeira</h5>
+                                        <h4 class="mt-3">Por R$ 164.000</h4>
+                                        <p>Para saber das especificações entre em contato!</p>
+                                        <button class="btn btn-success w-100 mb-5">
+                                            <a href="#contato">Entre em contato!</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale conosco
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome: </label>
+                                <input type="text" name="nome" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu E-mail: </label>
+                                <input type="email" name="email" id="email" class="form-control" required placeholder="seuemail@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold">Seu telefone (opcional) : </label>
+                                <input type="tel" name="tel" id="tel" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem: </label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Matheus Martins nº 404, Bairro Buiz - Igrejinha - RS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        Site educacional!
+    </footer>
+
+    <script src="biblioteca/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="biblioteca/jquery.mask.min.js"></script>
+    <script src="biblioteca/jquery.validate.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
